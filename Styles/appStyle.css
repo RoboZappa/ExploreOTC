@@ -219,3 +219,37 @@ footer a:hover{
     text-decoration: none;
 
 }
+
+@media only screen and (max-width: 1370px){
+    .wordmark{width: 320px;}
+    header{padding: 2%;}
+    #socialMedia{margin-left: 25%;}
+}
+
+@media only screen and (max-width: 1140px){
+    #socialMedia{margin-left: 20%;}
+}
+
+@media only screen and (max-width: 1000px){
+    #socialMedia{margin-left: 15%;}
+    .wordmark{width: 280px;}
+    .sidePhone{width: 100%;}
+
+}
+
+@media only screen and (max-width: 850px){
+    .wordmark{margin-left: 10%;}
+    .sidePhone{width: 100%;}
+}
+
+@media only screen and (max-width: 700px){
+    .wordmark{margin-left: 5%;}
+    #socialMedia{display: none;}
+    .sidePhone{width: 100%;}
+}
+
+
+@media only screen and (max-width: 450px){
+    .wordmark{width: 240px;}
+    .sidePhone{width: 100%;}
+}
