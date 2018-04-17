@@ -163,16 +163,30 @@ footer a:hover{
 @media(max-width: 850px){
     .wordmark{margin-left: 10%;}
     .info h3{font-size: 250%;}
+	.clipboard{display:none}
+	.form{padding-top:0px;}
+	footer{margin-top:950px;}
 }
+
 
 @media(max-width: 700px){
     .wordmark{margin-left: 5%;}
     #socialMedia{display: none;}
+	h1{font-size:34px;}
+	h2{font-size:25px;}
+	.clipboard{display:none;}
+	.form{padding-top:0px;margin:0;}
 }
 
 @media(max-width:590px){
     .wordmark{width: 260px;}
+	h1{font-size:30px;}
+	h2{font-size:21px;}
+	.clipboard{display:none;}
+	.form{width:400px;padding-top:0px;margin:0;}
 }
 @media(max-width: 450px){
     .wordmark{width: 240px;}
+	.clipboard{display:none;}
+	.form{width:270px;padding-top:0px;margin:0;}
 }
